@@ -19,10 +19,10 @@ const Navbar = () => {
           <div className="ml-4 flex items-center md:ml-6">
             
             <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Inicio</a>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Sobre Nosotros</a>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Servicios</a>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Blog</a>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Contáctanos</a>
+            <a href="#quienes" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Sobre Nosotros</a>
+            <a href="#servicios" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Servicios</a>
+            <a href="#unete" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Blog</a>
+            <a href="#contacto" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Contáctanos</a>
 
             <div className='botonsDiv'>
             <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-xs text-sm font-medium">Iniciar Sesión</a>
