@@ -1,0 +1,14 @@
+install in the console
+
+--------------------tailwind------------------------------------
+npm install -D tailwindcss
+npx tailwindcss init
+
+
+
+--------------------Font awesome------------------------------------
+npm i font-awesome
+
+
+-------------------sweetalert2------------------------------------
+npm i sweetalert2
