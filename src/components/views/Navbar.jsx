@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/img/Recurso 1.png';
-import '../../assets/styles/navbar.css'
+import '../../assets/styles/navbar.css';
+import Loging from './Loging/Loging';
 
 const Navbar = () => {  
   return (
@@ -25,8 +26,8 @@ const Navbar = () => {
             <a href="#contacto" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-full text-sm font-medium">Contáctanos</a>
 
             <div className='botonsDiv'>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-xs text-sm font-medium">Iniciar Sesión</a>
-            <a href="#" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-xs text-sm font-medium">Regístrate</a>
+            <a href="#iniciarSesion" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-xs text-sm font-medium">Iniciar Sesión</a>
+            <a href="#crearCuenta" className="bg-purple text-white hover:text-white ml-2 w-42 px-3 py-2 rounded-xs text-sm font-medium">Regístrate</a>
             </div>
 
           </div>

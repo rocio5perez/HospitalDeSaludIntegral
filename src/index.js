@@ -4,6 +4,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import  Navbar  from './components/views/Navbar';
 import Index from './components/views/Index';
+import Loging from './components/views/Loging/Loging';
+import SignUp from './components/views/SignUp/SignUp';
+import Profile from './components/views/UserProfile/Profile';
+
 
 
 
@@ -12,6 +16,9 @@ root.render(
   <React.StrictMode>
     <Navbar />
     <Index />
+    <Loging />
+    <SignUp></SignUp>
+    <Profile />
   </React.StrictMode>
 );
 
